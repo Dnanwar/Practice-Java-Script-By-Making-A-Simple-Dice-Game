@@ -1,0 +1,105 @@
+.dice-body{
+    width: 200px;
+    height: 200px;
+    margin: 0 8px 10px 8px;
+    background-color: rgba(165, 42, 42, 0.467);
+    border-radius: 10%;
+    display: inline-block;
+}
+
+div.whole{
+    text-align: center;
+    padding: 7%;
+}
+
+h1{
+
+    font-family: 'Pacifico', cursive;
+    color: white;
+    font-size: 50px;
+    margin: 0;
+    margin-bottom: 15px;
+    font-weight: 100;
+
+}
+h3{
+    display: inline-block;
+    margin-left: 75px;
+    margin-right: 75px;
+    margin-bottom: 6px;
+    font-family: 'Pacifico', cursive;
+    color: rgba(255, 255, 255, 0.714);
+    font-weight: 200;
+    font-size: 20px;
+}
+.dots div{
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    background-color: white;
+}
+.dots{
+    width: 200px;
+    height: 200px;
+    position: relative;
+}
+.one{
+    position: absolute;
+    top: 85px;    
+    left: 85px;
+}
+
+.three1{
+    position: absolute;
+    top: 35px;
+    left:35px;
+}
+.three3{
+    position:absolute;
+    bottom: 35px;
+    right: 35px;
+}
+.five-top-rigth{
+    position: absolute;
+    top: 35px;
+    right:35px;
+}
+.five-bottom-left{
+    position: absolute;
+    bottom: 35px;
+    left:35px;
+}
+.six-mid-1{
+    position:absolute;
+    top:85px;
+    left: 35px;
+}
+.six-mid-2{
+    position:absolute;
+    top:85px;
+    right: 35px;
+}
+
+.players{
+    display: block;
+}
+
+body{
+    background: rgb(63,94,251);
+    background: linear-gradient(90deg, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%);
+}
+input{
+    margin-top: 20px;
+    background: rgba(236, 236, 236, 0.547);
+    background: linear-gradient(90deg, rgba(156, 165, 208, 0.559) 0%, rgba(218, 101, 125, 0.532) 100%);
+    border-radius: 8px;
+    border: solid;
+    border-color: rgba(255, 255, 255, 0.348);
+    padding: 1px;
+    font-family: 'Pacifico', cursive;
+    color: rgba(255, 255, 255);
+    font-weight: 180;
+    font-size: 18px;
+    width: 60px;;
+
+}
