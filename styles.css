@@ -103,3 +103,9 @@ input{
     width: 60px;;
 
 }
+.dice-container{
+    display: inline-block;
+}
+.player{
+    display: inline-block;
+}
