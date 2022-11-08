@@ -24,10 +24,10 @@ function diceRoll(){
          msg.innerHTML="Draw";
     }
     if(val1>val2){
-        msg.innerHTML="Player-1 Wins";
+        msg.innerHTML="Player1 Wins";
     }
     if(val1<val2){
-     msg.innerHTML="Player-2 Wins";
+     msg.innerHTML="Player2 Wins";
 }
 
 }
